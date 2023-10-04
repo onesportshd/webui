@@ -9,10 +9,10 @@ git clone -b $2 https://github.com/ninjaneural/colabui /kaggle/working/$1
 cd /kaggle/working/$1
 
 if [ $3 == True ]; then
-  git clone https://github.com/Mikubill/sd-webui-controlnet ./extensions/controlnet
+  git clone https://github.com/deforum-art/sd-webui-deforum ./extensions/deforum
 fi
 if [ $4 == True ]; then
-  git clone https://github.com/deforum-art/sd-webui-deforum ./extensions/deforum
+  git clone https://github.com/Mikubill/sd-webui-controlnet ./extensions/controlnet
 fi
 if [ $5 == True ]; then
   git clone https://github.com/Bing-su/adetailer ./extensions/adetailer
