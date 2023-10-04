@@ -12,7 +12,7 @@ if [ $3 == True ]; then
   git clone https://github.com/Mikubill/sd-webui-controlnet ./extensions/controlnet
 fi
 if [ $4 == True ]; then
-  git clone -b mmdet3 https://github.com/ninjaneural/ddetailer ./extensions/ddetailer
+  git clone https://github.com/deforum-art/sd-webui-deforum ./extensions/deforum
 fi
 if [ $5 == True ]; then
   git clone https://github.com/Bing-su/adetailer ./extensions/adetailer
