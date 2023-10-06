@@ -2,7 +2,7 @@
     "quicksettings": "sd_model_checkpoint,sd_vae,initial_noise_multiplier,img2img_color_correction",
     "CLIP_stop_at_last_layers": 2,
     "sd_model_checkpoint": "",
-    "sd_vae": "vae-ft-mse-840000-ema-pruned.vae.pt",
+    "sd_vae": "klF8Anime2_klF8Anime2VAE.pt",
     "save_to_dirs": true,
     "samples_filename_pattern": "",
     "save_images_add_number": false,
