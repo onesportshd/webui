@@ -23,20 +23,23 @@ fi
 
 git clone https://github.com/deforum-art/sd-webui-deforum ./extensions/sd-webui-deforum
 git clone https://github.com/Mikubill/sd-webui-controlnet ./extensions/sd-webui-controlnet
+git clone https://github.com/continue-revolution/sd-webui-animatediff ./extensions/sd-webui-animatediff
 git clone https://github.com/adieyal/sd-dynamic-prompts ./extensions/sd-dynamic-prompts
 git clone https://github.com/mcmonkeyprojects/sd-dynamic-thresholding ./extensions/sd-dynamic-thresholding
 git clone https://github.com/pkuliyi2015/multidiffusion-upscaler-for-automatic1111 ./extensions/multidiffusion-upscaler
 git clone https://github.com/DominikDoom/a1111-sd-webui-tagcomplete ./extensions/tagcomplete
 git clone https://github.com/Coyote-A/ultimate-upscale-for-automatic1111 ./extensions/ultimate-upscale
 git clone https://github.com/thomasasfk/sd-webui-aspect-ratio-helper ./extensions/sd-webui-aspect-ratio-helper
+git clone https://github.com/civitai/sd_civitai_extension ./extensions/sd_civitai_extension
+git clone https://github.com/s0md3v/sd-webui-roop ./extensions/sd-webui-roop
 
 git clone https://github.com/neuralninja22/images-browser ./extensions/images-browser
 git clone https://github.com/kohya-ss/sd-webui-additional-networks ./extensions/additional-networks
 git clone https://github.com/picobyte/stable-diffusion-webui-wd14-tagger ./extensions/wd14-tagger
-git clone https://github.com/yankooliveira/sd-webui-photopea-embed ./extensions/photopea-embed
+#git clone https://github.com/yankooliveira/sd-webui-photopea-embed ./extensions/photopea-embed
 
 git clone https://github.com/fkunn1326/openpose-editor ./extensions/openpose-editor
-git clone https://github.com/hnmr293/posex ./extensions/posex
+#git clone https://github.com/hnmr293/posex ./extensions/posex
 git clone https://github.com/fishslot/video_loopback_for_webui ./extensions/video_loopback
 
 if [ $6 == True ]; then
